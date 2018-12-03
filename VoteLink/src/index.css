@@ -1,0 +1,221 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none ;
+  color: black;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.pagination div {
+  cursor: pointer;
+}
+
+.pagination .item {
+  padding: 3px;
+}
+
+.pagination .item:hover {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.pagination .item.active {
+  border: 1px solid #ccc;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  width: 55px;
+  height: 40px,;
+  align-items: center;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  font-size: 42px;
+  font-weight: bold;
+  background-color: #ECECEC;
+  margin-right: 18px;
+}
+
+.submitLink {
+  display: flex;
+  border: 1px solid #EEEEEE;
+  background-color: #F2F2F2;
+  padding: 4px;
+  border-radius: 5px;
+  width: 285px;
+  cursor: pointer;
+}
+
+.textSubmit {
+    align-self: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.addLink {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  align-self: self-start;
+  margin-bottom: 10px;
+}
+
+
+.linkVoteMain .header input {
+  padding: 8px;
+  font-size: 16px;
+  width: 250px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.linkVoteMain .header h1 {
+  margin-bottom: 30px;
+  margin-right: 55px;
+}
+
+.linkVoteMain .header button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 6px;
+  width: 108px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.linkVoteMain .header a {
+  display: flex;
+  width: 280px;
+  justify-content: flex-end;
+}
+
+.line {
+  display: flex;
+  width: 297px;
+  border: 0;
+  border-top: 2px solid #ECECEC;
+  margin: 14px 0;
+}
+
+select.form-control {
+  background-color: #F2F2F2;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.pointBox {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.pointBox:hover{
+  background-color: #F7F7F7;
+}
+
+.pointBox:hover .delete {
+  visibility: visible;
+}
+
+.delete {
+  visibility: hidden;
+  display: flex;
+  color: #FFF;
+  background-color: #EF0507;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.addLinkButton {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sortSelect {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.disable {
+  color: #BBBDBF;
+}
+
+.disable:hover {
+  cursor: auto !important; 
+}
+
+.point {
+  display: flex;
+  width: 47px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #C5C5C5;
+  background-color: #F2F2F2;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.pointNumber {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.linkVote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: -10px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
+
+.url {
+  font-size: 12px;
+  color: #C8C8C8;
+}
+
+.upDownVote {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  color: #BBBDBF;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.downVote {
+  cursor: pointer;
+}
+
+.upVote {
+  cursor: pointer;
+}
